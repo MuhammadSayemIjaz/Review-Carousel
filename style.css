@@ -23,10 +23,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .reviewBorder{
-    margin-top: 10px;
     border-top: 5px solid var(--color1);
     width: 80px;
 }
@@ -40,23 +39,27 @@ header{
     color: var(--color3);
     letter-spacing: 7px;
 }
-section{
+article{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .mianContent{
     width: 30rem;
-    margin-top: 60px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5),
-                0px 0px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5),                0px 0px 15px rgba(0, 0, 0, 0.2);
     background-color: var(--color4);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .demoImage{
     width: 200px;
@@ -130,5 +133,4 @@ section{
 .surprisebtn:hover{
     border: 2px solid var(--color3);
     color: var(--color3);
-
 }
